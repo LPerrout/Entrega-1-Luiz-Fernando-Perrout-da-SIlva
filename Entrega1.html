@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega1</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        #bac {
+            border-radius:10px;
+            margin: auto;
+            width: 1088px;
+            height: 918px;
+            background: linear-gradient(to bottom, transparent,transparent, #0F0F0F, #0F0F0F), url('FluxoEMPI.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+        #divsup{
+            flex-direction: column;
+            margin-left: 45px;
+        }
+        #logofluxo{
+            width: 320px;
+            height: 320px;
+            margin-top: 220px;
+        }
+        #botoes{
+            flex-direction: row;
+            align-items: center;
+            margin-block-start: 5px;
+
+        }
+        #bplay{
+            width: 120px;
+            height: 60px;
+            border-radius: 5px;
+            margin-left: 42px;
+            
+        }
+        #bplus{
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            
+        }
+
+        #blike{
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            
+        }#classificacao{
+            font-family: "Helvetica Neue",Helvetica,Arial;
+            font-weight: bold;
+            color:white;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="bac">
+        <div id = "divsup">
+            <div>
+                <img id="logofluxo" src="LogoFluxo.png"/>
+            </div>
+            <div id = "botoes">
+                <button id="bplay">
+                        <img id= "imgplay" src="play.svg"/>
+                </button>
+                <button id = "bplus">
+                    <img id = "imgplus" src="plus.svg"/>
+                </button>
+                <button id = "blike">
+                    <img id = "imglike" src="like.svg"/>
+                </button>
+            </div>
+        </div>
+        <div id = "divinf">
+            <p id = "classificacao">100% relevante 1993 <img src= "livre.svg"/> 29 Anos HD</p>
+
+        </div>
+    </div>
+</body>
+</html>
