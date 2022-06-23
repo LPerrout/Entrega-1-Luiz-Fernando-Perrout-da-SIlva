@@ -39,6 +39,7 @@
             height: 60px;
             border-radius: 5px;
             margin-left: 42px;
+            flex-direction: row;
             
         }
         #bplus{
@@ -53,10 +54,54 @@
             width: 60px;
             height: 60px;
             
-        }#classificacao{
+        }
+        #classificacao{
             font-family: "Helvetica Neue",Helvetica,Arial;
             font-weight: bold;
             color:white;
+            margin-top: 90px;
+        }
+        #livre{
+        }
+        .divinf{
+            color:white;
+            margin-left: 80px;
+            font-family: Helvetica;
+            margin-top: -50px;
+        }
+
+        #imgtop1{
+            height: 10px;
+            width: 10px;
+
+        }
+        #textos{
+            flex-direction: column;
+        }
+        .logos{
+            height: 25px;
+            width: 25px;
+        }
+        h1{
+            font-size: 20px;
+        }
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight:bold;
+            font-size: 20px;
+        }
+        #ladodireito{
+            margin-left: 600px;
+            margin-top: -200px;
+        }
+        #titulo2{
+            margin-top: 30000px;
+        }
+        #relevancia{
+            font-size: 20px;
+            font-family: "Helvetica Neue",Helvetica,Arial;
+            font-weight: bold;
+            color:green;
         }
 
 
@@ -70,9 +115,9 @@
                 <img id="logofluxo" src="LogoFluxo.png"/>
             </div>
             <div id = "botoes">
-                <button id="bplay">
-                        <img id= "imgplay" src="play.svg"/>
-                </button>
+                    <button id="bplay">
+                        <h2 id = "entrar"><img id= "imgplay" src="play.svg"/> Entrar</h2>
+                    </button>
                 <button id = "bplus">
                     <img id = "imgplus" src="plus.svg"/>
                 </button>
@@ -81,9 +126,16 @@
                 </button>
             </div>
         </div>
-        <div id = "divinf">
-            <p id = "classificacao">100% relevante 1993 <img src= "livre.svg"/> 29 Anos HD</p>
-
+        <div id="textos">
+            <div class ="divinf">
+                <h1 id = "classificacao">100% relevante 1993 <img class="logos" src="livre.png"/> 29 Anos HD</h1>
+                <h1> <img class = "logos" src="top1.png"/> Top 1 Empresas Junior Brasil</h1>
+                <h2 id="titulo 2">Estou gostando bastante do processo seletivo, em todas <br> etapas consegui desenvolver algumas habilidades técnicas <br> e interpessoais. Além disto, a partir do processo conheci <br> muitas pessoas da propria fluxo que tornaram o processo <br> muito mais leve e acessivel.<br></h2>
+                <h4 id="ladodireito">Elenco: Antônio Falcão, Victor Diniz, Karolinne Oliveira e <i>mais</i><br><br> Gêneros: Engenharias, Química Industrial, Arquitetura e Urbanismo, e Comunicação Visual</h4>
+            </div>
+            <div class ="divinf">
+                
+            </div>
         </div>
     </div>
 </body>
